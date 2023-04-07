@@ -2,6 +2,8 @@ import React from "react";
 import "./Navbar.css";
 import { FaFacebook, FaForward, FaYoutube } from "react-icons/fa";
 import logo from "/logo_bdesh.svg";
+import { BsPersonCircle } from "react-icons/bs";
+import { IoCallSharp } from "react-icons/io5";
 
 const Navbar = () => {
   return (
@@ -70,7 +72,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className="container-lg mx-auto px-[105px] bg-[#ECEFF1]">
+      <div className="container-lg mx-auto px-[105px] mr-[-25px] bg-[#ECEFF1]">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <div className="dropdown">
@@ -135,35 +137,70 @@ const Navbar = () => {
               alt="navbar-image"
             />
           </div>
-          <div className="navbar-end">
+          <div className="navbar-end mr-0">
             <ul className="menu menu-horizontal px-1">
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li tabIndex={0}>
-                <a>
-                  Parent
-                  <svg
-                    className="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                  </svg>
-                </a>
-                <ul className="p-2">
+              <div class="relative" data-te-dropdown-ref>
+                <button
+                  class="flex items-center whitespace-nowrap rounded px-6 pb-2 pt-2.5 text-sm leading-normal transition duration-150 ease-in-out hover:bg-primary-600  focus:bg-primary-600 active:bg-primary-700  motion-reduce:transition-none font-semibold mt-1 hover:text-[#2157AC] text-[#6a92cf]"
+                  type="button"
+                  id="dropdownMenuButton1d"
+                  data-te-dropdown-toggle-ref
+                  aria-expanded="false"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                >
+                  <BsPersonCircle className="text-xl mr-3 bg-[#2157AC] border border-spacing-16 border-[#2157AC]  text-white rounded-xl" />
+                  Sign in / Create Account
+                </button>
+                <ul
+                  class="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"
+                  aria-labelledby="dropdownMenuButton1d"
+                  data-te-dropdown-menu-ref
+                >
                   <li>
-                    <a>Submenu 1</a>
+                    <a
+                      class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+                      href="#"
+                      data-te-dropdown-item-ref
+                    >
+                      Action
+                    </a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a
+                      class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+                      href="#"
+                      data-te-dropdown-item-ref
+                    >
+                      Another action
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+                      href="#"
+                      data-te-dropdown-item-ref
+                    >
+                      Something else here
+                    </a>
+                  </li>
+                  <hr class="my-2 h-0 border border-t-0 border-solid border-neutral-700 opacity-25 dark:border-neutral-200" />
+                  <li>
+                    <a
+                      class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-neutral-600"
+                      href="#"
+                      data-te-dropdown-item-ref
+                    >
+                      Separated link
+                    </a>
                   </li>
                 </ul>
-              </li>
+              </div>
               <li>
-                <a>Item 3</a>
+                <a>
+                  <IoCallSharp className="text-2xl rotate-[270deg] rounded-xl" />
+                  Contact Us
+                </a>
               </li>
             </ul>
           </div>
