@@ -31,25 +31,25 @@ const Navbar = () => {
           <div class="text-sm lg:flex-grow">
             <a
               href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0  hover:text-[#1A7FF2] mr-4 text-[13px]	font-medium"
+              class="block mt-4 lg:inline-block lg:mt-0  hover:text-[#1A7FF2] mr-4 text-[13px]	font-medium  transition-colors duration-500 transition-delay-500"
             >
               Bdjobs
             </a>
             <a
               href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 hover:text-[#1A7FF2] mr-4 text-[13px]	font-medium"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:text-[#1A7FF2] mr-4 text-[13px]	font-medium  transition-colors duration-500 transition-delay-500"
             >
               Jobs
             </a>
             <a
               href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0  hover:text-[#1A7FF2] mr-4 text-[13px]	font-medium"
+              class="block mt-4 lg:inline-block lg:mt-0  hover:text-[#1A7FF2] mr-4 text-[13px]	font-medium  transition-colors duration-500 transition-delay-500"
             >
               Job Seeker Account
             </a>
             <a
               href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 bg-[#D4D8D9] p-3 hover:text-[#1A7FF2] text-[13px]	font-medium"
+              class="block mt-4 lg:inline-block lg:mt-0 bg-[#D4D8D9] p-3 hover:text-[#1A7FF2] text-[13px]	font-medium transition-colors duration-500 transition-delay-500"
             >
               <span>Recruitment Agency / Foreign Employers</span>
               <span>
