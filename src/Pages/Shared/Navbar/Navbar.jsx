@@ -135,7 +135,7 @@ const Navbar = () => {
             />
           </div>
           <div className="navbar-end mr-0">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal px-1 ">
               <div class="relative" data-te-dropdown-ref>
                 <button
                   class="flex items-center whitespace-nowrap rounded px-6 pb-2 pt-2.5 text-sm leading-normal transition duration-150 ease-in-out hover:bg-primary-600  focus:bg-primary-600 active:bg-primary-700  motion-reduce:transition-none font-semibold mt-1 hover:text-[#2157AC] text-[#6a92cf]"
@@ -193,8 +193,11 @@ const Navbar = () => {
                   </li>
                 </ul>
               </div>
-              <li>
-                <a>
+              <li className="hover:bg-none">
+                <a
+                  className="hover:text-[#2157AC] hover:cursor-pointer 
+                  hover:bg-none"
+                >
                   <IoCallSharp className="text-2xl rotate-[270deg] rounded-xl" />
                   Contact Us
                 </a>
