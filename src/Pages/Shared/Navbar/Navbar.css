@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 
-nav {
+nav,
+div {
   font-family: "Open Sans", sans-serif;
 }
