@@ -360,6 +360,52 @@ const Category = () => {
           </div>
         </div>
       </div>
+
+      <div className="">
+        <div className="flex">
+          <div className="bg-[#036DC5] w-2/6 px-7 py-2 m-4 rounded-md">
+            <div className="flex justify-center items-center">
+              <img
+                src="https://bdesh.bdjobs.com/images/thousand_cv.png"
+                alt="Movie"
+                className="w-32 h-24"
+              />
+
+              <div>
+                <p className="text-white text-base">
+                  হাজারো চাকরির মাঝে আপনার পছন্দের চাকরি খুঁজে আবেদন করতে জয়েন
+                  করুন আমাদের সাইটে।
+                </p>
+
+                <button className="btn btn-warning btn-sm rounded-md px-4 mt-3">
+                  একাউণ্ট খুলুন
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-[#036DC5] w-2/6 px-7 py-2 m-4 rounded-md">
+            <div className="flex justify-center items-center">
+              <img
+                src="https://bdesh.bdjobs.com/images/make-bio.png"
+                alt="Movie"
+                className="w-32 h-24"
+              />
+
+              <div>
+                <p className="text-white text-base">
+                  বায়োডাটা তৈরি করতে চান? <br /> সহজ কয়েকটি ধাপে এখনই স্বল্প
+                  সময়েই তৈরি করুন আপনার সিভি
+                </p>
+
+                <button className="btn btn-warning btn-sm rounded-md px-4 mt-3">
+                  একাউণ্ট খুলুন
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
