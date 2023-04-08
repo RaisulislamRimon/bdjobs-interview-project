@@ -98,10 +98,16 @@ const Banner = () => {
             <div id="slide1" className="carousel-item relative w-full">
               <img src={slide00} className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide6" className="btn btn-circle">
+                <a
+                  href="#slide6"
+                  className="btn btn-circle rounded-none ml-[-20px]  bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❮
                 </a>
-                <a href="#slide2" className="btn btn-circle">
+                <a
+                  href="#slide2"
+                  className="btn btn-circle rounded-none mr-[-20px] bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❯
                 </a>
               </div>
@@ -109,10 +115,16 @@ const Banner = () => {
             <div id="slide2" className="carousel-item relative w-full">
               <img src={slide01} className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" className="btn btn-circle">
+                <a
+                  href="#slide1"
+                  className="btn btn-circle rounded-none ml-[-20px]  bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❮
                 </a>
-                <a href="#slide3" className="btn btn-circle">
+                <a
+                  href="#slide3"
+                  className="btn btn-circle rounded-none mr-[-20px] bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❯
                 </a>
               </div>
@@ -120,10 +132,16 @@ const Banner = () => {
             <div id="slide3" className="carousel-item relative w-full">
               <img src={slide02} className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" className="btn btn-circle">
+                <a
+                  href="#slide2"
+                  className="btn btn-circle rounded-none ml-[-20px]  bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❮
                 </a>
-                <a href="#slide4" className="btn btn-circle">
+                <a
+                  href="#slide4"
+                  className="btn btn-circle rounded-none mr-[-20px] bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❯
                 </a>
               </div>
@@ -131,10 +149,16 @@ const Banner = () => {
             <div id="slide4" className="carousel-item relative w-full">
               <img src={slide03} className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" className="btn btn-circle">
+                <a
+                  href="#slide3"
+                  className="btn btn-circle rounded-none ml-[-20px]  bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❮
                 </a>
-                <a href="#slide5" className="btn btn-circle">
+                <a
+                  href="#slide5"
+                  className="btn btn-circle rounded-none mr-[-20px] bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❯
                 </a>
               </div>
@@ -142,10 +166,16 @@ const Banner = () => {
             <div id="slide5" className="carousel-item relative w-full">
               <img src={slide04} className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" className="btn btn-circle">
+                <a
+                  href="#slide4"
+                  className="btn btn-circle rounded-none ml-[-20px]  bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❮
                 </a>
-                <a href="#slide6" className="btn btn-circle">
+                <a
+                  href="#slide6"
+                  className="btn btn-circle rounded-none mr-[-20px] bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❯
                 </a>
               </div>
@@ -153,10 +183,16 @@ const Banner = () => {
             <div id="slide6" className="carousel-item relative w-full">
               <img src={slide05} className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide5" className="btn btn-circle">
+                <a
+                  href="#slide5"
+                  className="btn btn-circle rounded-none ml-[-20px]  bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❮
                 </a>
-                <a href="#slide1" className="btn btn-circle">
+                <a
+                  href="#slide1"
+                  className="btn btn-circle rounded-none mr-[-20px] bg-white border-none bg-transparent hover:bg-white hover:text-[#2E7ED8]"
+                >
                   ❯
                 </a>
               </div>
