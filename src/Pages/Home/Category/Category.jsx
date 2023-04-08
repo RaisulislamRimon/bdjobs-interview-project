@@ -276,37 +276,37 @@ const Category = () => {
               <ul>
                 <li className="flex items-center text-[#7588B3] mb-2 ">
                   <IoCaretForward className=" " />
-                  <span className="font-medium text-sm ml-1">
+                  <span className="font-medium text-sm ml-1 hover:cursor-pointer">
                     "বিদেশ জবস্"-নির্দেশিকা
                   </span>
                 </li>
                 <li className="flex items-center text-[#4e5057] mb-2 ">
                   <IoCaretForward className=" " />
-                  <span className="font-medium text-sm ml-1">
+                  <span className="font-medium text-sm ml-1 hover:cursor-pointer">
                     বিদেশে যাওয়ার গাইডলাইন
                   </span>
                 </li>
                 <li className="flex items-center text-[#4e5057]  mb-2">
                   <IoCaretForward className=" " />
-                  <span className="font-medium text-sm ml-1">
+                  <span className="font-medium text-sm  ml-1 hover:cursor-pointer">
                     বিদেশে চাকরির পূর্ব প্রস্তুতি
                   </span>
                 </li>
                 <li className="flex items-center text-[#4e5057]  mb-2">
                   <IoCaretForward className=" " />
-                  <span className="font-medium text-sm ml-1">
+                  <span className="font-medium text-sm ml-1 hover:cursor-pointer">
                     বিদেশে যাওয়ার প্রাসঙ্গিক কাজ
                   </span>
                 </li>
                 <li className="flex items-center text-[#4e5057]  mb-2">
                   <IoCaretForward className=" " />
-                  <span className="font-medium text-sm ml-1">
+                  <span className="font-medium text-sm ml-1 hover:cursor-pointer">
                     বিদেশের যাত্রাপথে করনীয়
                   </span>
                 </li>
                 <li className="flex items-center text-[#4e5057] ">
                   <IoCaretForward className=" " />
-                  <span className="font-medium text-sm ml-1">
+                  <span className="font-medium text-sm ml-1 hover:cursor-pointer">
                     বিদেশে জীবনযাত্রা
                   </span>
                 </li>
@@ -384,7 +384,7 @@ const Category = () => {
             </div>
           </div>
 
-          <div className="bg-[#036DC5] w-2/6 px-7 py-2 m-4 rounded-md">
+          <div className="bg-[#6047AF] w-2/6 px-7 py-2 m-4 rounded-md">
             <div className="flex justify-center items-center">
               <img
                 src="https://bdesh.bdjobs.com/images/make-bio.png"
