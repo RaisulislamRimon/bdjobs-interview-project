@@ -12,9 +12,9 @@ import slide05 from "/images/slide-05.jpg";
 const Banner = () => {
   return (
     <div className="bg-[#2E7ED8]">
-      <div className="container ">
+      <div className="container mx-auto ">
         <div className="grid grid-cols-3">
-          <div className="flex items-center justify-center pt-10">
+          <div className="flex items-center justify-center pt-10  w-full">
             <form action="" method="post" id="frmJobSearch" name="frmJobSearch">
               <div className="filter-job">
                 <h3 className="title text-white text-[22px] font-semibold leading-6">
@@ -162,49 +162,54 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="text-white flex items-center justify-center ">
+          <div className="text-white flex items-center justify-center mr-32 mt-[-70px] ">
             <div className="countrys-job-summary">
-              <h4 className="title">Country wise vacancies</h4>
+              <h4 className="title text-lg font-semibold mb-4">
+                Country wise vacancies
+              </h4>
               <ul className="countrys-list">
-                <li>
-                  <a href="jobsearch.asp?locationId=310">
-                    United Arab Emirates (45)
-                  </a>
+                <li className="font-thin text-[#FFF9FA] mb-2">
+                  <a href="">United Arab Emirates (45)</a>
                 </li>
 
-                <li>
-                  <a href="jobsearch.asp?locationId=276">Saudi Arabia (35)</a>
+                <li className="font-thin text-[#FFF9FA] mb-2">
+                  <a href="">Saudi Arabia (35)</a>
                 </li>
 
-                <li>
-                  <a href="jobsearch.asp?locationId=202">Japan (25)</a>
+                <li className="font-thin text-[#FFF9FA] mb-2">
+                  <a href="">Japan (25)</a>
                 </li>
 
-                <li>
-                  <a href="jobsearch.asp?locationId=287">South Korea (11)</a>
+                <li className="font-thin text-[#FFF9FA] mb-2">
+                  <a href="">South Korea (11)</a>
                 </li>
 
-                <li>
-                  <a href="jobsearch.asp?locationId=252">Oman (6)</a>
+                <li className="font-thin text-[#FFF9FA] mb-2">
+                  <a href="">Oman (6)</a>
                 </li>
 
-                <li>
-                  <a href="jobsearch.asp?locationId=222">Malaysia (6)</a>
+                <li className="font-thin text-[#FFF9FA] mb-2">
+                  <a href="">Malaysia (6)</a>
                 </li>
 
-                <li>
-                  <a href="locationwisejobs.asp">All Countries</a>
+                <li className="font-thin text-[#FFF9FA] mb-2">
+                  <a href="">All Countries</a>
                 </li>
               </ul>
-              <div>
-                <a
-                  href="https://mybdjobs.bdjobs.com/mybdjobs/file_upload.asp"
-                  className="submit-biodata"
-                >
-                  <img src="/images/submit_biodata.png" alt="Submit Biodata" />
+              <div
+                className="bg-[#e4bc4e] hover:bg-[#FFC72A]  flex justify-center align-center w-40 h-16 p-2 rounded-md transition duration-500  cursor-pointer
+              "
+              >
+                <img
+                  src="/images/submit_biodata.png"
+                  alt="Submit Biodata"
+                  className="m-1"
+                />
+                {/* </a> */}
+                <span className="text-black font-medium m-0">
                   Submit your <br />
                   Biodata
-                </a>
+                </span>
               </div>
 
               <div>
