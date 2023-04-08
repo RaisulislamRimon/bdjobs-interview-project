@@ -8,6 +8,7 @@ import slide02 from "/images/slide-02.jpg";
 import slide03 from "/images/slide-03.jpg";
 import slide04 from "/images/slide-04.jpg";
 import slide05 from "/images/slide-05.jpg";
+import bdeshjatra from "/images/bdesh_jatra.svg";
 
 const Banner = () => {
   return (
@@ -162,7 +163,7 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="text-white flex items-center justify-center mr-32 mt-[-70px] ">
+          <div className="text-white flex items-center justify-center mr-32 mt-[-10px] ">
             <div className="countrys-job-summary">
               <h4 className="title text-lg font-semibold mb-4">
                 Country wise vacancies
@@ -212,13 +213,10 @@ const Banner = () => {
                 </span>
               </div>
 
-              <div>
-                <a href="https://www.bdeshjaatra.com/" className="bdeshjl">
-                  <img
-                    src="/images/bdesh_jatra.svg"
-                    alt="logo of bdeshjaatra"
-                  />
-                  <div className="des-txt">অভিবাসন বিষয়ক তথ্য</div>
+              <div className="bg-white text-blue-700 p-3 mt-2 rounded-md w-40 h-16">
+                <a href="" className="">
+                  <img src={bdeshjatra} alt="logo of bdeshjaatra" />
+                  <div className="text-sm">অভিবাসন বিষয়ক তথ্য</div>
                 </a>
               </div>
             </div>
