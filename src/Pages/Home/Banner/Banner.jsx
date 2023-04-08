@@ -1,4 +1,7 @@
 import React from "react";
+import { IoBriefcaseOutline } from "react-icons/io5";
+import { BiWorld } from "react-icons/bi";
+import { MdOutlineLocationOn } from "react-icons/md";
 import slide00 from "/images/slide-00.jpg";
 import slide01 from "/images/slide-01.jpg";
 import slide02 from "/images/slide-02.jpg";
@@ -19,7 +22,8 @@ const Banner = () => {
                 </h3>
                 <div className="form-group mt-3">
                   <label htmlFor="occupation ">
-                    <i className="icon-briefcase "></i>
+                    {/* <i className="icon-briefcase "></i> */}
+                    <IoBriefcaseOutline className="inline text-white ml-0 mt-1 mr-2 mb-2 text-lg" />
                     <span className="text-white">Write your occupation</span>
                   </label>
                   <input
@@ -33,7 +37,8 @@ const Banner = () => {
                 </div>
                 <div className="form-group mt-3 ">
                   <label htmlFor="skill">
-                    <i className="icon-globe-europe"></i>
+                    {/* <i className="icon-globe-europe"></i> */}
+                    <BiWorld className="inline text-white ml-0 mt-1 mr-2 mb-2 text-lg" />
                     <span className="text-white">Select Category</span>
                   </label>
                   <div className="flex items-center justify-center">
@@ -51,7 +56,8 @@ const Banner = () => {
                 </div>
                 <div className="form-group mt-3 mb-3">
                   <label htmlFor="select_place">
-                    <i className="icon-map-marker-alt"></i>
+                    {/* <i className="icon-map-marker-alt"></i> */}
+                    <MdOutlineLocationOn className="inline text-white ml-0 mt-1 mr-2 mb-2 text-lg" />
                     <span className="text-white ">Country</span>
                   </label>
                   <select
@@ -79,7 +85,9 @@ const Banner = () => {
                   </select>
                 </div>
                 {/* <div className="search-btn btn btn-warning"> */}
-                <button className="btn btn-warning rounded-md mt-3 mb-14">Search</button>
+                <button className="btn btn-warning rounded-md mt-3 mb-14 capitalize">
+                  Search
+                </button>
                 {/* </div> */}
               </div>
             </form>
