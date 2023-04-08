@@ -11,40 +11,51 @@ const Banner = () => {
     <div className="bg-[#2E7ED8]">
       <div className="container ">
         <div className="grid grid-cols-3">
-          <div className="text-white">
+          <div className="flex items-center justify-center pt-10">
             <form action="" method="post" id="frmJobSearch" name="frmJobSearch">
               <div className="filter-job">
-                <h3 className="title">Find your dream job</h3>
-                <div className="form-group">
-                  <label htmlFor="occupation">
-                    <i className="icon-briefcase"></i>Write your occupation
+                <h3 className="title text-white text-[22px] font-semibold leading-6">
+                  Find your dream job
+                </h3>
+                <div className="form-group mt-3">
+                  <label htmlFor="occupation ">
+                    <i className="icon-briefcase "></i>
+                    <span className="text-white">Write your occupation</span>
                   </label>
                   <input
                     type="text"
                     name="txtsearch"
-                    className="form-control"
+                    className="form-control border border-gray-300 rounded-md px-2 py-2 w-full mt-3 text-md  focus:outline-none"
                     id="txtsearch"
                     placeholder="Driver, Electrician etc"
                     maxLength="50"
                   />
                 </div>
-                <div className="form-group">
+                <div className="form-group mt-3 ">
                   <label htmlFor="skill">
-                    <i className="icon-globe-europe"></i>Skilled Category
+                    <i className="icon-globe-europe"></i>
+                    <span className="text-white">Select Category</span>
                   </label>
-                  <select className="form-control" id="skill" name="skilltype">
-                    <option value="">Select Skill</option>
-                    <option value="skilled">Skilled</option>
-                    <option value="semi skilled">Semi Skilled</option>
-                    <option value="less skilled">Less Skilled</option>
-                  </select>
+                  <div className="flex items-center justify-center">
+                    <select
+                      className="form-control mt-3 rounded-md w-full h-10 text-slate-400 p-2  focus:outline-none"
+                      id="skill"
+                      name="skilltype"
+                    >
+                      <option value="">Select Skill</option>
+                      <option value="skilled">Skilled</option>
+                      <option value="semi skilled">Semi Skilled</option>
+                      <option value="less skilled">Less Skilled</option>
+                    </select>
+                  </div>
                 </div>
-                <div className="form-group">
+                <div className="form-group mt-3 mb-3">
                   <label htmlFor="select_place">
-                    <i className="icon-map-marker-alt"></i>Country
+                    <i className="icon-map-marker-alt"></i>
+                    <span className="text-white ">Country</span>
                   </label>
                   <select
-                    className="form-control"
+                    className="form-control w-full h-10 focus:outline-none p-2 rounded-md text-slate-400"
                     id="select_place"
                     name="LocationList"
                   >
@@ -68,7 +79,7 @@ const Banner = () => {
                   </select>
                 </div>
                 {/* <div className="search-btn btn btn-warning"> */}
-                <button className="btn btn-warning rounded-md">Search</button>
+                <button className="btn btn-warning rounded-md mt-3 mb-14">Search</button>
                 {/* </div> */}
               </div>
             </form>
@@ -143,7 +154,7 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="text-white">
+          <div className="text-white flex items-center justify-center ">
             <div className="countrys-job-summary">
               <h4 className="title">Country wise vacancies</h4>
               <ul className="countrys-list">
